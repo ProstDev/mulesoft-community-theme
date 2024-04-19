@@ -1,0 +1,1199 @@
+{
+	/*
+		docs: https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+			https://code.visualstudio.com/docs/getstarted/userinterface
+			https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme
+		COLORS
+			MuleSoft blue = 00a0df
+			MuleSoft blue darker = 007aaa
+			MuleSoft blue lighter = a4dcf3
+			Dark blue = 0b5cab
+			Gray 1 = 2e2e2e
+			Gray 2 = 6e6e6e
+			Gray 3 = 9e9e9e
+			Gray 4 = cacbcc
+			Gray 4.5? = eeeeee
+			Gray 5 = f3f3f3
+			Gray 6 = f9fafb
+			Red = ea001e
+			Light red = eab2b9
+			Yellow = edbf31
+	*/
+	"name": "MuleSoft Community Theme",
+	"colors": {
+		"focusBorder": "#cacbcc",
+		"foreground": "#2e2e2e",
+		"disabledForeground": "#9e9e9e",
+		"widget.border": "#cacbcc",
+		"widget.shadow": "#cacbcc",
+		"selection.background": "#00a0df",
+		"descriptionForeground": "#9e9e9e",
+		// "errorForeground": "#ff0000",
+		"icon.foreground": "#6e6e6e",
+		// "sash.hoverBorder": "#ff0000",
+		// "window.activeBorder": "#ff0000",
+		// "window.inactiveBorder": "#ff0000",
+		"textBlockQuote.background": "#f3f3f3",
+		"textBlockQuote.border": "#00a0df",
+		"textCodeBlock.background": "#f3f3f3",
+		"textLink.activeForeground": "#0b5cab",
+		"textLink.foreground": "#00a0df",
+		"textPreformat.foreground": "#6e6e6e",
+		"textPreformat.background": "#f3f3f3",
+		"textSeparator.foreground": "#6e6e6e",
+		"toolbar.hoverBackground": "#9e9e9e",
+		"toolbar.hoverOutline": "#9e9e9e",
+		"toolbar.activeBackground": "#00a0df",
+		"button.background": "#00a0df",
+		"button.foreground": "#ffffff",
+		// "button.border": "#00a0df",
+		"button.separator": "#0b5cab",
+		"button.hoverBackground": "#007aaa",
+		"button.secondaryForeground": "#00a0df",
+		"button.secondaryBackground": "#ffffff",
+		"button.secondaryHoverBackground": "#0b5cab",
+		"checkbox.background": "#ffffff",
+		"checkbox.foreground": "#00a0df",
+		"checkbox.border": "#9e9e9e",
+		"checkbox.selectBackground": "#ffffff",
+		"checkbox.selectBorder": "#9e9e9e",
+		"dropdown.background": "#ffffff",
+		"dropdown.listBackground": "#ffffff",
+		"dropdown.border": "#cacbcc",
+		"dropdown.foreground": "#2e2e2e",
+		"input.background": "#ffffff",
+		"input.border": "#cacbcc",
+		"input.foreground": "#2e2e2e",
+		"input.placeholderForeground": "#9e9e9e",
+		"inputOption.activeBackground": "#f3f3f3",
+		"inputOption.activeBorder": "#9e9e9e",
+		"inputOption.activeForeground": "#2e2e2e",
+		"inputOption.hoverBackground": "#00a0df",
+		"inputValidation.errorBackground": "#eab2b9",
+		"inputValidation.errorBorder": "#ea001e",
+		"inputValidation.errorForeground": "#2e2e2e",
+		// "inputValidation.infoBackground": "#ff0000",
+		"inputValidation.infoForeground": "#2e2e2e",
+		// "inputValidation.infoBorder": "#ff0000",
+		"inputValidation.warningBackground": "#edbf31",
+		"inputValidation.warningBorder": "#edbf31",
+		"inputValidation.warningForeground": "#2e2e2e",
+		"scrollbar.shadow": "#cacbcc",
+		"scrollbarSlider.activeBackground": "#007aaa40",
+		"scrollbarSlider.background": "#00a0df40",
+		"scrollbarSlider.hoverBackground": "#a4ddf37a",
+		"badge.background": "#0b5cab",
+		"badge.foreground": "#ffffff",
+		// "progressBar.background": "#ff0000",
+		"list.activeSelectionBackground": "#00a0df",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.activeSelectionIconForeground": "#ffffff",
+		"list.dropBackground": "#a4dcf3",
+		// "list.focusBackground": "#ff0000",
+		// "list.focusForeground": "#ff0000",
+		"list.focusHighlightForeground": "#0b5cab",
+		// "list.focusOutline": "#ff0000",
+		// "list.focusAndSelectionOutline": "#ff0000",
+		"list.highlightForeground": "#00a0df",
+		"list.hoverBackground": "#cacbcc",
+		"list.hoverForeground": "#2e2e2e",
+		"list.inactiveSelectionBackground": "#a4dcf3",
+		"list.inactiveSelectionForeground": "#2e2e2e",
+		"list.inactiveSelectionIconForeground": "#2e2e2e",
+		// "list.inactiveFocusBackground": "#ff0000",
+		// "list.inactiveFocusOutline": "#ff0000",
+		// "list.invalidItemForeground": "#ff0000",
+		"list.errorForeground": "#ea001e",
+		"list.warningForeground": "#edbf31",
+		"listFilterWidget.background": "#a4dcf3",
+		// "listFilterWidget.noMatchesOutline": "#ff0000"
+		// "listFilterWidget.outline": "#ff0000",
+		"listFilterWidget.shadow": "#cacbcc",
+		"list.filterMatchBackground": "#a4dcf3",
+		// "list.filterMatchBorder": "#ff0000",
+		// "list.deemphasizedForeground": "#ff0000",
+		// "list.dropBetweenBackground": "#ff0000",
+		"tree.indentGuidesStroke": "#00a0df",
+		"tree.inactiveIndentGuidesStroke": "#a4dcf3",
+		// "tree.tableColumnsBorder": "#ff0000",
+		// "tree.tableOddRowsBackground": "#ff0000",
+		"activityBar.background": "#ffffff",
+		"activityBar.dropBorder": "#00a0df",
+		"activityBar.foreground": "#ffffff",
+		"activityBar.inactiveForeground": "#00a0df",
+		"activityBar.border": "#007aaa",
+		"activityBarBadge.background": "#0b5cab",
+		"activityBarBadge.foreground": "#ffffff",
+		"activityBar.activeBorder": "#00a0df",
+		"activityBar.activeBackground": "#00a0df",
+		"activityBar.activeFocusBorder": "#00a0df",
+		"activityBarTop.foreground": "#ffffff",
+		"activityBarTop.activeBorder": "#00a0df",
+		"activityBarTop.inactiveForeground": "#00a0df",
+		"activityBarTop.dropBorder": "#007aaa",
+		"activityBarTop.background": "#ffffff",
+		"activityBarTop.activeBackground": "#00a0df",
+		// "profileBadge.background": "#ff0000",
+		// "profileBadge.foreground": "#ff0000",
+		"sideBar.background": "#f9fafb",
+		"sideBar.foreground": "#2e2e2e",
+		"sideBar.border": "#cacbcc",
+		// "sideBar.dropBackground": "#ff0000",
+		"sideBarTitle.foreground": "#2e2e2e",
+		"sideBarSectionHeader.background": "#cacbcc",
+		"sideBarSectionHeader.foreground": "#2e2e2e",
+		"sideBarSectionHeader.border": "#cacbcc",
+		"sideBarActivityBarTop.border": "#007aaa",
+		"minimap.findMatchHighlight": "#00a0df87",
+		"minimap.selectionHighlight": "#00a0df87",
+		"minimap.errorHighlight": "#ea001e87",
+		"minimap.warningHighlight": "#edbf3187",
+		"minimap.background": "#ffffff00",
+		"minimap.selectionOccurrenceHighlight": "#00a0df87",
+		"minimap.foregroundOpacity": "#000000c0",
+		// "minimap.infoHighlight": "#00a0df87",
+		"minimapSlider.background": "#00a0df40",
+		"minimapSlider.activeBackground": "#007aaa40",
+		"minimapSlider.hoverBackground": "#a4ddf37a",
+		// "minimapGutter.addedBackground": "#ff0000",
+		// "minimapGutter.deletedBackground": "#ff0000",
+		// "minimapGutter.modifiedBackground": "#ff0000",
+		"editorGroup.border": "#cacbcc",
+		"editorGroup.dropBackground": "#00a0df40",
+		"editorGroupHeader.noTabsBackground": "#f9fafb",
+		"editorGroupHeader.tabsBackground": "#f9fafb",
+		"editorGroupHeader.tabsBorder": "#cacbcc",
+		"editorGroupHeader.border": "#cacbcc",
+		"editorGroup.emptyBackground": "#f9fafb",
+		"editorGroup.focusedEmptyBorder": "#cacbcc",
+		"editorGroup.dropIntoPromptForeground": "#00a0df",
+		"editorGroup.dropIntoPromptBackground": "#f9fafb",
+		"editorGroup.dropIntoPromptBorder": "#cacbcc",
+		"tab.activeBackground": "#a4dcf3",
+    	"tab.unfocusedActiveBackground": "#eeeeee",
+		"tab.activeForeground": "#2e2e2e",
+		"tab.border": "#cacbcc",
+		"tab.activeBorder": "#cacbcc",
+		"tab.dragAndDropBorder": "#0b5cab",
+		"tab.unfocusedActiveBorder": "#cacbcc",
+		"tab.activeBorderTop": "#cacbcc",
+		"tab.unfocusedActiveBorderTop": "#cacbcc",
+		"tab.lastPinnedBorder": "#cacbcc",
+		"tab.inactiveBackground": "#f3f3f3",
+		"tab.unfocusedInactiveBackground": "#f3f3f3",
+		"tab.inactiveForeground": "#6e6e6e",
+		"tab.unfocusedActiveForeground": "#6e6e6e",
+		"tab.unfocusedInactiveForeground": "#9e9e9e",
+		"tab.hoverBackground": "#a4dcf3",
+		"tab.unfocusedHoverBackground": "#a4dcf3",
+		"tab.hoverForeground": "#2e2e2e",
+		"tab.unfocusedHoverForeground": "#2e2e2e",
+		"tab.hoverBorder": "#cacbcc",
+		"tab.unfocusedHoverBorder": "#cacbcc",
+		"tab.activeModifiedBorder": "#cacbcc",
+		"tab.inactiveModifiedBorder": "#cacbcc",
+		"tab.unfocusedActiveModifiedBorder": "#cacbcc",
+		"tab.unfocusedInactiveModifiedBorder": "#cacbcc",
+		"editorPane.background": "#cacbcc",
+		"sideBySideEditor.horizontalBorder": "#cacbcc",
+		"sideBySideEditor.verticalBorder": "#cacbcc",
+		"editor.background": "#ffffff",
+		"editor.foreground": "#2e2e2e",
+		"editorLineNumber.foreground": "#9e9e9e",
+		"editorLineNumber.activeForeground": "#00a0df",
+		// "editorLineNumber.dimmedForeground": "#ff0000",
+		// "editorCursor.background": "#ff0000",
+		"editorCursor.foreground": "#2e2e2e",
+		// "editorCursor.background": "#ff0000",
+		"editorMultiCursor.primary.foreground": "#2e2e2e",
+		// "editorMultiCursor.primary.background": "#ff0000",
+		"editorMultiCursor.secondary.foreground": "#9e9e9e",
+		// "editorMultiCursor.secondary.background": "#ff0000",
+		"editor.selectionBackground": "#00a0df8a",
+		// "editor.selectionForeground": "#ff0000",
+		"editor.inactiveSelectionBackground": "#cacbcc81",
+		"editor.selectionHighlightBackground": "#00a0df1c",
+		"editor.selectionHighlightBorder": "#00a0df8a",
+		"editor.wordHighlightBackground": "#cacbcc81",
+		"editor.wordHighlightBorder": "#cacbcc",
+		// "editor.wordHighlightStrongBackground": "#ff0000",
+		// "editor.wordHighlightStrongBorder": "#ff0000",
+		// "editor.wordHighlightTextBackground": "#ff0000",
+		// "editor.wordHighlightTextBorder": "#ff0000",
+		"editor.findMatchBackground": "#00a0df",
+		"editor.findMatchHighlightBackground": "#00a0df40",
+		"editor.findRangeHighlightBackground": "#00a0df40",
+		"editor.findMatchBorder": "#00a0df",
+		"editor.findMatchHighlightBorder": "#00a0df",
+		"editor.findRangeHighlightBorder": "#00a0dfd8",
+		"search.resultsInfoForeground": "#2e2e2e",
+		// "searchEditor.findMatchBackground": "#ff0000",
+		// "searchEditor.findMatchBorder": "#ff0000",
+		// "searchEditor.textInputBorder": "#ff0000",
+		"editor.hoverHighlightBackground": "#00a0df7a",
+		// "editor.lineHighlightBackground": "#ff0000"
+		"editor.lineHighlightBorder": "#eeeeee",
+		// "editorWatermark.foreground": "#ff0000",
+		// "editorUnicodeHighlight.border": "#ff0000",
+		// "editorUnicodeHighlight.background": "#ff0000",
+		"editorLink.activeForeground": "#00a0df",
+		// "editor.rangeHighlightBackground": "#ff0000b6",
+		// "editor.rangeHighlightBorder": "#ff0000",
+		"editor.symbolHighlightBackground": "#00a0df9b",
+		"editor.symbolHighlightBorder": "#00a0df9b",
+		// "editorWhitespace.foreground": "#ff0000",
+		// "editorIndentGuide.background1": "#ff0000",
+		// "editorIndentGuide.background2": "#ff0000",
+		// "editorIndentGuide.background3": "#ff0000",
+		// "editorIndentGuide.background4": "#ff0000",
+		// "editorIndentGuide.background5": "#ff0000",
+		// "editorIndentGuide.background6": "#ff0000",
+		// "editorIndentGuide.activeBackground1": "#ff0000",
+		// "editorIndentGuide.activeBackground2": "#ff0000",
+		// "editorIndentGuide.activeBackground3": "#ff0000",
+		// "editorIndentGuide.activeBackground4": "#ff0000",
+		// "editorIndentGuide.activeBackground5": "#ff0000",
+		// "editorIndentGuide.activeBackground6": "#ff0000",
+		// "editorInlayHint.background": "#ff0000",
+		// "editorInlayHint.foreground": "#ff0000",
+		// "editorInlayHint.typeBackground": "#ff0000",
+		// "editorInlayHint.typeForeground": "#ff0000",
+		// "editorInlayHint.parameterBackground": "#ff0000",
+		// "editorInlayHint.parameterForeground": "#ff0000",
+		// "editorRuler.foreground": "#ff0000",
+		// "editor.linkedEditingBackground": "#ff0000",
+		// "editorCodeLens.foreground": "#ff0000",
+		"editorLightBulb.foreground": "#edbf31",
+		// "editorLightBulbAutoFix.foreground": "#ff0000",
+		// "editorLightBulbAi.foreground": "#ff0000",
+		"editorBracketMatch.background": "#a4ddf36e",
+		"editorBracketMatch.border": "#00a0df",
+		// "editorBracketHighlight.foreground1": "#ff0000",
+		// "editorBracketHighlight.foreground2": "#ff0000",
+		// "editorBracketHighlight.foreground3": "#ff0000",
+		// "editorBracketHighlight.foreground4": "#ff0000",
+		// "editorBracketHighlight.foreground5": "#ff0000",
+		// "editorBracketHighlight.foreground6": "#ff0000",
+		// "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+		// "editorBracketPairGuide.activeBackground1": "#ff0000",
+		// "editorBracketPairGuide.activeBackground2": "#ff0000",
+		// "editorBracketPairGuide.activeBackground3": "#ff0000",
+		// "editorBracketPairGuide.activeBackground4": "#ff0000",
+		// "editorBracketPairGuide.activeBackground5": "#ff0000",
+		// "editorBracketPairGuide.activeBackground6": "#ff0000",
+		// "editorBracketPairGuide.background1": "#ff0000",
+		// "editorBracketPairGuide.background2": "#ff0000",
+		// "editorBracketPairGuide.background3": "#ff0000",
+		// "editorBracketPairGuide.background4": "#ff0000",
+		// "editorBracketPairGuide.background5": "#ff0000",
+		// "editorBracketPairGuide.background6": "#ff0000",
+		// "editor.foldBackground": "#ff0000",
+		"editorOverviewRuler.background": "#ffffff00",
+		"editorOverviewRuler.border": "#9e9e9e",
+		"editorOverviewRuler.findMatchForeground": "#00a0df87",
+		// "editorOverviewRuler.rangeHighlightForeground": "#ff0000",
+		// "editorOverviewRuler.selectionHighlightForeground": "#00a0df87",
+		// "editorOverviewRuler.wordHighlightForeground": "#00a0df87",
+		// "editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
+		// "editorOverviewRuler.wordHighlightTextForeground": "#ff0000",
+		// "editorOverviewRuler.modifiedForeground": "#ff0000",
+		// "editorOverviewRuler.addedForeground": "#ff0000",
+		// "editorOverviewRuler.deletedForeground": "#ff0000",
+		// "editorOverviewRuler.errorForeground": "#ff0000",
+		// "editorOverviewRuler.warningForeground": "#ff0000",
+		// "editorOverviewRuler.infoForeground": "#ff0000",
+		// "editorOverviewRuler.bracketMatchForeground": "#ff0000",
+		// "editorOverviewRuler.inlineChatInserted": "#ff0000",
+		// "editorOverviewRuler.inlineChatRemoved": "#ff0000",
+		// "editorError.foreground": "#ff0000",
+		// "editorError.border": "#ff0000",
+		// "editorError.background": "#ff0000",
+		// "editorWarning.foreground": "#ff0000",
+		// "editorWarning.border": "#ff0000",
+		// "editorWarning.background": "#ff0000",
+		// "editorInfo.foreground": "#ff0000",
+		// "editorInfo.border": "#ff0000",
+		// "editorInfo.background": "#ff0000",
+		// "editorHint.foreground": "#ff0000",
+		// "editorHint.border": "#ff0000",
+		// "problemsErrorIcon.foreground": "#ff0000",
+		// "problemsWarningIcon.foreground": "#ff0000",
+		// "problemsInfoIcon.foreground": "#ff0000",
+		// "editorUnnecessaryCode.border": "#ff0000",
+		// "editorUnnecessaryCode.opacity": "#ff0000",
+		// "editorGutter.background": "#ff0000",
+		// "editorGutter.modifiedBackground": "#ff0000",
+		// "editorGutter.addedBackground": "#ff0000",
+		// "editorGutter.deletedBackground": "#ff0000",
+		// "editorGutter.commentRangeForeground": "#ff0000",
+		// "editorGutter.commentGlyphForeground": "#ff0000",
+		// "editorGutter.commentUnresolvedGlyphForeground": "#ff0000",
+		// "editorGutter.foldingControlForeground": "#ff0000",
+		// "editorCommentsWidget.resolvedBorder": "#ff0000",
+		// "editorCommentsWidget.unresolvedBorder": "#ff0000",
+		// "editorCommentsWidget.rangeBackground": "#ff0000",
+		// "editorCommentsWidget.rangeActiveBackground": "#ff0000",
+		// "editorCommentsWidget.replyInputBackground": "#ff0000",
+		// "diffEditor.insertedTextBackground": "#ff0000",
+		// "diffEditor.insertedTextBorder": "#ff0000",
+		// "diffEditor.removedTextBackground": "#ff0000",
+		// "diffEditor.removedTextBorder": "#ff0000",
+		// "diffEditor.border": "#ff0000",
+		// "diffEditor.diagonalFill": "#ff0000",
+		// "diffEditor.insertedLineBackground": "#ff0000",
+		// "diffEditor.removedLineBackground": "#ff0000",
+		// "diffEditorGutter.insertedLineBackground": "#ff0000",
+		// "diffEditorGutter.removedLineBackground": "#ff0000",
+		// "diffEditorOverview.insertedForeground": "#ff0000",
+		// "diffEditorOverview.removedForeground": "#ff0000",
+		// "diffEditor.unchangedCodeBackground": "#ff0000",
+		// "diffEditor.unchangedRegionBackground": "#ff0000",
+		// "diffEditor.unchangedRegionForeground": "#ff0000",
+		// "diffEditor.unchangedRegionShadow": "#ff0000",
+		// "diffEditor.move.border": "#ff0000",
+		// "diffEditor.moveActive.border": "#ff0000",
+		// "multiDiffEditor.background": "#ff0000",
+		// "multiDiffEditor.border": "#ff0000",
+		// "multiDiffEditor.headerBackground": "#ff0000",
+		// "chat.requestBorder": "#ff0000",
+		// "chat.requestBackground": "#ff0000",
+		// "chat.slashCommandBackground": "#ff0000",
+		// "chat.slashCommandForeground": "#ff0000",
+		// "chat.avatarBackground": "#ff0000",
+		// "chat.avatarForeground": "#ff0000",
+		// "inlineChat.background": "#ff0000",
+		// "inlineChat.border": "#ff0000",
+		// "inlineChat.shadow": "#ff0000",
+		// "inlineChat.regionHighlight": "#ff0000",
+		// "inlineChatInput.border": "#ff0000",
+		// "inlineChatInput.placeholderForeground": "#ff0000",
+		// "inlineChatInput.background": "#ff0000",
+		// "inlineChatInput.focusBorder": "#ff0000",
+		// "inlineChatDiff.inserted": "#ff0000",
+		// "inlineChatDiff.removed": "#ff0000",
+		// "interactive.activeCodeBorder": "#ff0000",
+		// "interactive.inactiveCodeBorder": "#ff0000",
+		"editorWidget.foreground": "#2e2e2e",
+		"editorWidget.background": "#a4dcf3",
+		"editorWidget.border": "#cacbcc",
+		"editorWidget.resizeBorder": "#0b5cab",
+		"editorSuggestWidget.background": "#f3f3f3",
+		"editorSuggestWidget.border": "#cacbcc",
+		"editorSuggestWidget.foreground": "#2e2e2e",
+		"editorSuggestWidget.focusHighlightForeground": "#0b5cab",
+		"editorSuggestWidget.highlightForeground": "#00a0df",
+		"editorSuggestWidget.selectedBackground": "#00a0df",
+		"editorSuggestWidget.selectedForeground": "#ffffff",
+		"editorSuggestWidget.selectedIconForeground": "#ffffff",
+		// "editorSuggestWidgetStatus.foreground": "#ff0000",
+		"editorHoverWidget.foreground": "#2e2e2e",
+		"editorHoverWidget.background": "#f3f3f3",
+		"editorHoverWidget.border": "#cacbcc",
+		// "editorHoverWidget.highlightForeground": "#ff0000",
+		// "editorHoverWidget.statusBarBackground": "#ff0000",
+		// "editorGhostText.background": "#ff0000",
+		// "editorGhostText.border": "#ff0000",
+		// "editorGhostText.foreground": "#ff0000",
+		"editorStickyScroll.background": "#f3f3f3",
+		"editorStickyScroll.border": "#cacbcc",
+		"editorStickyScroll.shadow": "#cacbcc",
+		"editorStickyScrollHover.background": "#a4dcf3",
+		// "debugExceptionWidget.background": "#ff0000",
+		// "debugExceptionWidget.border": "#ff0000",
+		// "editorMarkerNavigation.background": "#ff0000",
+		// "editorMarkerNavigationError.background": "#ff0000",
+		// "editorMarkerNavigationError.headerBackground": "#ff0000",
+		// "editorMarkerNavigationWarning.background": "#ff0000",
+		// "editorMarkerNavigationWarning.headerBackground": "#ff0000",
+		// "editorMarkerNavigationInfo.background": "#ff0000",
+		// "editorMarkerNavigationInfo.headerBackground": "#ff0000",
+		// "peekView.border": "#ff0000",
+		// "peekViewEditor.background": "#ff0000",
+		// "peekViewEditorGutter.background": "#ff0000",
+		// "peekViewEditor.matchHighlightBackground": "#ff0000",
+		// "peekViewEditor.matchHighlightBorder": "#ff0000",
+		// "peekViewEditorStickyScroll.background": "#ff0000",
+		// "peekViewResult.background": "#ff0000",
+		// "peekViewResult.fileForeground": "#ff0000",
+		// "peekViewResult.lineForeground": "#ff0000",
+		// "peekViewResult.matchHighlightBackground": "#ff0000",
+		// "peekViewResult.selectionBackground": "#ff0000",
+		// "peekViewResult.selectionForeground": "#ff0000",
+		// "peekViewTitle.background": "#ff0000",
+		// "peekViewTitleDescription.foreground": "#ff0000",
+		// "peekViewTitleLabel.foreground": "#ff0000",
+		// "merge.currentHeaderBackground": "#ff0000",
+		// "merge.currentContentBackground": "#ff0000",
+		// "merge.incomingHeaderBackground": "#ff0000",
+		// "merge.incomingContentBackground": "#ff0000",
+		// "merge.border": "#ff0000",
+		// "merge.commonContentBackground": "#ff0000",
+		// "merge.commonHeaderBackground": "#ff0000",
+		// "editorOverviewRuler.currentContentForeground": "#ff0000",
+		// "editorOverviewRuler.incomingContentForeground": "#ff0000",
+		// "editorOverviewRuler.commonContentForeground": "#ff0000",
+		// "editorOverviewRuler.commentForeground": "#ff0000",
+		// "editorOverviewRuler.commentUnresolvedForeground": "#ff0000",
+		// "mergeEditor.change.background": "#ff0000",
+		// "mergeEditor.change.word.background": "#ff0000",
+		// "mergeEditor.changeBase.background": "#ff0000",
+		// "mergeEditor.changeBase.word.background": "#ff0000",
+		// "mergeEditor.conflict.handled.minimapOverViewRuler": "#ff0000",
+		// "mergeEditor.conflict.handledFocused.border": "#ff0000",
+		// "mergeEditor.conflict.handledUnfocused.border": "#ff0000",
+		// "mergeEditor.conflict.input1.background": "#ff0000",
+		// "mergeEditor.conflict.input2.background": "#ff0000",
+		// "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#ff0000",
+		// "mergeEditor.conflict.unhandledFocused.border": "#ff0000",
+		// "mergeEditor.conflict.unhandledUnfocused.border": "#ff0000",
+		// "mergeEditor.conflictingLines.background": "#ff0000",
+		"panel.background": "#f9fafb",
+		"panel.border": "#cacbcc",
+		"panel.dropBorder": "#0b5cab",
+		"panelTitle.activeBorder": "#00a0df",
+		"panelTitle.activeForeground": "#2e2e2e",
+		"panelTitle.inactiveForeground": "#6e6e6e",
+		"panelInput.border": "#cacbcc",
+		"panelSection.border": "#cacbcc",
+		"panelSection.dropBackground": "#00a0df40",
+		"panelSectionHeader.background": "#cacbcc",
+		"panelSectionHeader.border": "#cacbcc",
+		"panelSectionHeader.foreground": "#2e2e2e",
+		"outputView.background": "#f9fafb",
+		// "outputViewStickyScroll.background": "#ff0000",
+		"statusBar.background": "#00a0df",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.border": "#00a0df",
+		// "statusBar.debuggingBackground": "#ff0000",
+		// "statusBar.debuggingBorder": "#ff0000",
+		// "statusBar.debuggingForeground": "#ff0000",
+		// "statusBar.noFolderBackground": "#ff0000",
+		// "statusBar.noFolderBorder": "#ff0000",
+		// "statusBar.noFolderForeground": "#ff0000",
+		"statusBarItem.activeBackground": "#a4dcf3",
+		"statusBarItem.hoverForeground": "#ffffff",
+		"statusBarItem.hoverBackground": "#007aaa",
+		"statusBarItem.prominentForeground": "#ffffff",
+		"statusBarItem.prominentBackground": "#0b5cab",
+		"statusBarItem.prominentHoverBackground": "#007aaa",
+		"statusBarItem.prominentHoverForeground": "#ffffff",
+		"statusBarItem.remoteBackground": "#0b5cab",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"statusBarItem.remoteHoverBackground": "#007aaa",
+		"statusBarItem.remoteHoverForeground": "#ffffff",
+		// "statusBarItem.errorBackground": "#ff0000",
+		// "statusBarItem.errorForeground": "#ff0000",
+		// "statusBarItem.errorHoverBackground": "#ff0000",
+		// "statusBarItem.errorHoverForeground": "#ff0000",
+		// "statusBarItem.warningBackground": "#ff0000",
+		// "statusBarItem.warningForeground": "#ff0000",
+		// "statusBarItem.warningHoverBackground": "#ff0000",
+		// "statusBarItem.warningHoverForeground": "#ff0000",
+		// "statusBarItem.compactHoverBackground": "#ff0000",
+		// "statusBarItem.focusBorder": "#ff0000",
+		// "statusBar.focusBorder": "#ff0000",
+		// "statusBarItem.offlineBackground": "#ff0000",
+		// "statusBarItem.offlineForeground": "#ff0000",
+		// "statusBarItem.offlineHoverBackground": "#ff0000",
+		// "statusBarItem.offlineHoverForeground": "#ff0000",
+		"titleBar.activeBackground": "#00a0df",
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.border": "#00a0df",
+		"titleBar.inactiveBackground": "#f3f3f3",
+		"titleBar.inactiveForeground": "#2e2e2e",
+		/*
+		menubar.selectionForeground: Foreground color of the selected menu item in the menubar.
+		menubar.selectionBackground: Background color of the selected menu item in the menubar.
+		menubar.selectionBorder: Border color of the selected menu item in the menubar.
+		menu.foreground: Foreground color of menu items.
+		menu.background: Background color of menu items.
+		menu.selectionForeground: Foreground color of the selected menu item in menus.
+		menu.selectionBackground: Background color of the selected menu item in menus.
+		menu.selectionBorder: Border color of the selected menu item in menus.
+		menu.separatorBackground: Color of a separator menu item in menus.
+		menu.border: Border color of menus.
+		commandCenter.foreground: Foreground color of the Command Center.
+		commandCenter.activeForeground: Active foreground color of the Command Center.
+		commandCenter.background: Background color of the Command Center.
+		commandCenter.activeBackground: Active background color of the Command Center.
+		commandCenter.border: Border color of the Command Center.
+		commandCenter.inactiveForeground: Foreground color of the Command Center when the window is inactive.
+		commandCenter.inactiveBorder: Border color of the Command Center when the window is inactive.
+		commandCenter.activeBorder: Active border color of the Command Center.
+		commandCenter.debuggingBackground: Command Center background color when a program is being debugged.
+		notificationCenter.border: Notification Center border color.
+		notificationCenterHeader.foreground: Notification Center header foreground color.
+		notificationCenterHeader.background: Notification Center header background color.
+		notificationToast.border: Notification toast border color.
+		notifications.foreground: Notification foreground color.
+		notifications.background: Notification background color.
+		notifications.border: Notification border color separating from other notifications in the Notification Center.
+		notificationLink.foreground: Notification links foreground color.
+		notificationsErrorIcon.foreground: The color used for the notification error icon.
+		notificationsWarningIcon.foreground: The color used for the notification warning icon.
+		notificationsInfoIcon.foreground: The color used for the notification info icon.
+		banner.background: Banner background color.
+		banner.foreground: Banner foreground color.
+		banner.iconForeground: Color for the icon in front of the banner text.
+		extensionButton.prominentForeground: Extension view button foreground color (for example Install button).
+		extensionButton.prominentBackground: Extension view button background color.
+		extensionButton.prominentHoverBackground: Extension view button background hover color.
+		extensionButton.background: Button background color for extension actions.
+		extensionButton.foreground: Button foreground color for extension actions.
+		extensionButton.hoverBackground: Button background hover color for extension actions.
+		extensionButton.separator: Button separator color for extension actions.
+		extensionBadge.remoteBackground: Background color for the remote badge in the extensions view.
+		extensionBadge.remoteForeground: Foreground color for the remote badge in the extensions view.
+		extensionIcon.starForeground: The icon color for extension ratings.
+		extensionIcon.verifiedForeground: The icon color for extension verified publisher.
+		extensionIcon.preReleaseForeground: The icon color for pre-release extension.
+		extensionIcon.sponsorForeground: The icon color for extension sponsor.
+		pickerGroup.border: Quick picker (Quick Open) color for grouping borders.
+		pickerGroup.foreground: Quick picker (Quick Open) color for grouping labels.
+		quickInput.background: Quick input background color. The quick input widget is the container for views like the color theme picker.
+		quickInput.foreground: Quick input foreground color. The quick input widget is the container for views like the color theme picker.
+		quickInputList.focusBackground: Quick picker background color for the focused item.
+		quickInputList.focusForeground: Quick picker foreground color for the focused item.
+		quickInputList.focusIconForeground: Quick picker icon foreground color for the focused item.
+		quickInputTitle.background: Quick picker title background color. The quick picker widget is the container for pickers like the Command Palette.
+		keybindingLabel.background: Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.
+		keybindingLabel.foreground: Keybinding label foreground color. The keybinding label is used to represent a keyboard shortcut.
+		keybindingLabel.border: Keybinding label border color. The keybinding label is used to represent a keyboard shortcut.
+		keybindingLabel.bottomBorder: Keybinding label border bottom color. The keybinding label is used to represent a keyboard shortcut.
+		keybindingTable.headerBackground: Background color for the keyboard shortcuts table header.
+		keybindingTable.rowsBackground: Background color for the keyboard shortcuts table alternating rows.
+		terminal.background: The background of the Integrated Terminal's viewport.
+		terminal.border: The color of the border that separates split panes within the terminal. This defaults to panel.border.
+		terminal.foreground: The default foreground color of the Integrated Terminal.
+		terminal.ansiBlack: 'Black' ANSI color in the terminal.
+		terminal.ansiBlue: 'Blue' ANSI color in the terminal.
+		terminal.ansiBrightBlack: 'BrightBlack' ANSI color in the terminal.
+		terminal.ansiBrightBlue: 'BrightBlue' ANSI color in the terminal.
+		terminal.ansiBrightCyan: 'BrightCyan' ANSI color in the terminal.
+		terminal.ansiBrightGreen: 'BrightGreen' ANSI color in the terminal.
+		terminal.ansiBrightMagenta: 'BrightMagenta' ANSI color in the terminal.
+		terminal.ansiBrightRed: 'BrightRed' ANSI color in the terminal.
+		terminal.ansiBrightWhite: 'BrightWhite' ANSI color in the terminal.
+		terminal.ansiBrightYellow: 'BrightYellow' ANSI color in the terminal.
+		terminal.ansiCyan: 'Cyan' ANSI color in the terminal.
+		terminal.ansiGreen: 'Green' ANSI color in the terminal.
+		terminal.ansiMagenta: 'Magenta' ANSI color in the terminal.
+		terminal.ansiRed: 'Red' ANSI color in the terminal.
+		terminal.ansiWhite: 'White' ANSI color in the terminal.
+		terminal.ansiYellow: 'Yellow' ANSI color in the terminal.
+		terminal.selectionBackground: The selection background color of the terminal.
+		terminal.selectionForeground: The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied.
+		terminal.inactiveSelectionBackground: The selection background color of the terminal when it does not have focus.
+		terminal.findMatchBackground: Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+		terminal.findMatchBorder: Border color of the current search match in the terminal.
+		terminal.findMatchHighlightBackground: Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+		terminal.findMatchHighlightBorder: Border color of the other search matches in the terminal.
+		terminal.hoverHighlightBackground: Color of the highlight when hovering a link in the terminal.
+		terminalCursor.background: The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+		terminalCursor.foreground: The foreground color of the terminal cursor.
+		terminal.dropBackground: The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
+		terminal.tab.activeBorder: Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder.
+		terminalCommandDecoration.defaultBackground: The default terminal command decoration background color.
+		terminalCommandDecoration.successBackground: The terminal command decoration background color for successful commands.
+		terminalCommandDecoration.errorBackground: The terminal command decoration background color for error commands.
+		terminalOverviewRuler.cursorForeground: The overview ruler cursor color.
+		terminalOverviewRuler.findMatchForeground: Overview ruler marker color for find matches in the terminal.
+		terminalStickyScroll.background: The background color of the sticky scroll overlay in the terminal.
+		terminalStickyScrollHover.background: The background color of the sticky scroll overlay in the terminal when hovered.
+		debugToolBar.background: Debug toolbar background color.
+		debugToolBar.border: Debug toolbar border color.
+		editor.stackFrameHighlightBackground: Background color of the top stack frame highlight in the editor.
+		editor.focusedStackFrameHighlightBackground: Background color of the focused stack frame highlight in the editor.
+		editor.inlineValuesForeground: Color for the debug inline value text.
+		editor.inlineValuesBackground: Color for the debug inline value background.
+		debugView.exceptionLabelForeground: Foreground color for a label shown in the CALL STACK view when the debugger breaks on an exception.
+		debugView.exceptionLabelBackground: Background color for a label shown in the CALL STACK view when the debugger breaks on an exception.
+		debugView.stateLabelForeground: Foreground color for a label in the CALL STACK view showing the current session's or thread's state.
+		debugView.stateLabelBackground: Background color for a label in the CALL STACK view showing the current session's or thread's state.
+		debugView.valueChangedHighlight: Color used to highlight value changes in the debug views (such as in the Variables view).
+		debugTokenExpression.name: Foreground color for the token names shown in debug views (such as in the Variables or Watch view).
+		debugTokenExpression.value: Foreground color for the token values shown in debug views.
+		debugTokenExpression.string: Foreground color for strings in debug views.
+		debugTokenExpression.boolean: Foreground color for booleans in debug views.
+		debugTokenExpression.number: Foreground color for numbers in debug views.
+		debugTokenExpression.error: Foreground color for expression errors in debug views.
+		testing.runAction: Color for 'run' icons in the editor.
+		testing.iconErrored: Color for the 'Errored' icon in the test explorer.
+		testing.iconFailed: Color for the 'failed' icon in the test explorer.
+		testing.iconPassed: Color for the 'passed' icon in the test explorer.
+		testing.iconQueued: Color for the 'Queued' icon in the test explorer.
+		testing.iconUnset: Color for the 'Unset' icon in the test explorer.
+		testing.iconSkipped: Color for the 'Skipped' icon in the test explorer.
+		testing.iconErrored.retired: Retired color for the 'Errored' icon in the test explorer.
+		testing.iconFailed.retired: Retired color for the 'failed' icon in the test explorer.
+		testing.iconPassed.retired: Retired color for the 'passed' icon in the test explorer.
+		testing.iconQueued.retired: Retired color for the 'Queued' icon in the test explorer.
+		testing.iconUnset.retired: Retired color for the 'Unset' icon in the test explorer.
+		testing.iconSkipped.retired: Retired color for the 'Skipped' icon in the test explorer.
+		testing.peekBorder: Color of the peek view borders and arrow.
+		testing.peekHeaderBackground: Color of the peek view borders and arrow.
+		testing.message.error.decorationForeground: Text color of test error messages shown inline in the editor.
+		testing.message.error.lineBackground: Margin color beside error messages shown inline in the editor.
+		testing.message.info.decorationForeground: Text color of test info messages shown inline in the editor.
+		testing.message.info.lineBackground: Margin color beside info messages shown inline in the editor.
+		testing.messagePeekBorder: Color of the peek view borders and arrow when peeking a logged message.
+		testing.messagePeekHeaderBackground: Color of the peek view borders and arrow when peeking a logged message.
+		testing.coveredBackground: Background color of text that was covered.
+		testing.coveredBorder: Border color of text that was covered.
+		testing.coveredGutterBackground: Gutter color of regions where code was covered.
+		testing.uncoveredBranchBackground: Background of the widget shown for an uncovered branch.
+		testing.uncoveredBackground: Background color of text that was not covered.
+		testing.uncoveredBorder: Border color of text that was not covered.
+		testing.uncoveredGutterBackground: Gutter color of regions where code not covered.
+		testing.coverCountBadgeBackground: Background for the badge indicating execution count
+		testing.coverCountBadgeForeground: Foreground for the badge indicating execution count
+		welcomePage.background: Background color for the Welcome page.
+		welcomePage.progress.background: Foreground color for the Welcome page progress bars.
+		welcomePage.progress.foreground: Background color for the Welcome page progress bars.
+		welcomePage.tileBackground: Background color for the tiles on the Welcome page.
+		welcomePage.tileHoverBackground: Hover background color for the tiles on the Welcome page.
+		welcomePage.tileBorder: Border color for the tiles on the Welcome page.
+		walkThrough.embeddedEditorBackground: Background color for the embedded editors on the Interactive Playground.
+		walkthrough.stepTitle.foreground: Foreground color of the heading of each walkthrough step.
+		gitDecoration.addedResourceForeground: Color for added Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.modifiedResourceForeground: Color for modified Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.deletedResourceForeground: Color for deleted Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.renamedResourceForeground: Color for renamed or copied Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.stageModifiedResourceForeground: Color for staged modifications git decorations. Used for file labels and the SCM viewlet.
+		gitDecoration.stageDeletedResourceForeground: Color for staged deletions git decorations. Used for file labels and the SCM viewlet.
+		gitDecoration.untrackedResourceForeground: Color for untracked Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.ignoredResourceForeground: Color for ignored Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.conflictingResourceForeground: Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+		gitDecoration.submoduleResourceForeground: Color for submodule resources.
+		settings.headerForeground: The foreground color for a section header or active title.
+		settings.modifiedItemIndicator: The line that indicates a modified setting.
+		settings.dropdownBackground: Dropdown background.
+		settings.dropdownForeground: Dropdown foreground.
+		settings.dropdownBorder: Dropdown border.
+		settings.dropdownListBorder: Dropdown list border.
+		settings.checkboxBackground: Checkbox background.
+		settings.checkboxForeground: Checkbox foreground.
+		settings.checkboxBorder: Checkbox border.
+		settings.rowHoverBackground: The background color of a settings row when hovered.
+		settings.textInputBackground: Text input box background.
+		settings.textInputForeground: Text input box foreground.
+		settings.textInputBorder: Text input box border.
+		settings.numberInputBackground: Number input box background.
+		settings.numberInputForeground: Number input box foreground.
+		settings.numberInputBorder: Number input box border.
+		settings.focusedRowBackground: Background color of a focused setting row.
+		settings.focusedRowBorder: The color of the row's top and bottom border when the row is focused.
+		settings.headerBorder: The color of the header container border.
+		settings.sashBorder: The color of the Settings editor splitview sash border.
+		settings.settingsHeaderHoverForeground: The foreground color for a section header or hovered title.
+		breadcrumb.foreground: Color of breadcrumb items.
+		breadcrumb.background: Background color of breadcrumb items.
+		breadcrumb.focusForeground: Color of focused breadcrumb items.
+		breadcrumb.activeSelectionForeground: Color of selected breadcrumb items.
+		breadcrumbPicker.background: Background color of breadcrumb item picker.
+		editor.snippetTabstopHighlightBackground: Highlight background color of a snippet tabstop.
+		editor.snippetTabstopHighlightBorder: Highlight border color of a snippet tabstop.
+		editor.snippetFinalTabstopHighlightBackground: Highlight background color of the final tabstop of a snippet.
+		editor.snippetFinalTabstopHighlightBorder: Highlight border color of the final tabstop of a snippet.
+		symbolIcon.arrayForeground: The foreground color for array symbols.
+		symbolIcon.booleanForeground: The foreground color for boolean symbols.
+		symbolIcon.classForeground: The foreground color for class symbols.
+		symbolIcon.colorForeground: The foreground color for color symbols.
+		symbolIcon.constantForeground: The foreground color for constant symbols.
+		symbolIcon.constructorForeground: The foreground color for constructor symbols.
+		symbolIcon.enumeratorForeground: The foreground color for enumerator symbols.
+		symbolIcon.enumeratorMemberForeground: The foreground color for enumerator member symbols.
+		symbolIcon.eventForeground: The foreground color for event symbols.
+		symbolIcon.fieldForeground: The foreground color for field symbols.
+		symbolIcon.fileForeground: The foreground color for file symbols.
+		symbolIcon.folderForeground: The foreground color for folder symbols.
+		symbolIcon.functionForeground: The foreground color for function symbols.
+		symbolIcon.interfaceForeground: The foreground color for interface symbols.
+		symbolIcon.keyForeground: The foreground color for key symbols.
+		symbolIcon.keywordForeground: The foreground color for keyword symbols.
+		symbolIcon.methodForeground: The foreground color for method symbols.
+		symbolIcon.moduleForeground: The foreground color for module symbols.
+		symbolIcon.namespaceForeground: The foreground color for namespace symbols.
+		symbolIcon.nullForeground: The foreground color for null symbols.
+		symbolIcon.numberForeground: The foreground color for number symbols.
+		symbolIcon.objectForeground: The foreground color for object symbols.
+		symbolIcon.operatorForeground: The foreground color for operator symbols.
+		symbolIcon.packageForeground: The foreground color for package symbols.
+		symbolIcon.propertyForeground: The foreground color for property symbols.
+		symbolIcon.referenceForeground: The foreground color for reference symbols.
+		symbolIcon.snippetForeground: The foreground color for snippet symbols.
+		symbolIcon.stringForeground: The foreground color for string symbols.
+		symbolIcon.structForeground: The foreground color for struct symbols.
+		symbolIcon.textForeground: The foreground color for text symbols.
+		symbolIcon.typeParameterForeground: The foreground color for type parameter symbols.
+		symbolIcon.unitForeground: The foreground color for unit symbols.
+		symbolIcon.variableForeground: The foreground color for variable symbols.
+		debugIcon.breakpointForeground: Icon color for breakpoints.
+		debugIcon.breakpointDisabledForeground: Icon color for disabled breakpoints.
+		debugIcon.breakpointUnverifiedForeground: Icon color for unverified breakpoints.
+		debugIcon.breakpointCurrentStackframeForeground: Icon color for the current breakpoint stack frame.
+		debugIcon.breakpointStackframeForeground: Icon color for all breakpoint stack frames.
+		debugIcon.startForeground: Debug toolbar icon for start debugging.
+		debugIcon.pauseForeground: Debug toolbar icon for pause.
+		debugIcon.stopForeground: Debug toolbar icon for stop.
+		debugIcon.disconnectForeground: Debug toolbar icon for disconnect.
+		debugIcon.restartForeground: Debug toolbar icon for restart.
+		debugIcon.stepOverForeground: Debug toolbar icon for step over.
+		debugIcon.stepIntoForeground: Debug toolbar icon for step into.
+		debugIcon.stepOutForeground: Debug toolbar icon for step over.
+		debugIcon.continueForeground: Debug toolbar icon for continue.
+		debugIcon.stepBackForeground: Debug toolbar icon for step back.
+		debugConsole.infoForeground: Foreground color for info messages in debug REPL console.
+		debugConsole.warningForeground: Foreground color for warning messages in debug REPL console.
+		debugConsole.errorForeground: Foreground color for error messages in debug REPL console.
+		debugConsole.sourceForeground: Foreground color for source filenames in debug REPL console.
+		debugConsoleInputIcon.foreground: Foreground color for debug console input marker icon.
+		notebook.editorBackground: Notebook background color.
+		notebook.cellBorderColor: The border color for notebook cells.
+		notebook.cellHoverBackground: The background color of a cell when the cell is hovered.
+		notebook.cellInsertionIndicator: The color of the notebook cell insertion indicator.
+		notebook.cellStatusBarItemHoverBackground: The background color of notebook cell status bar items.
+		notebook.cellToolbarSeparator: The color of the separator in the cell bottom toolbar
+		notebook.cellEditorBackground: The color of the notebook cell editor background
+		notebook.focusedCellBackground: The background color of a cell when the cell is focused.
+		notebook.focusedCellBorder: The color of the cell's focus indicator borders when the cell is focused.
+		notebook.focusedEditorBorder: The color of the notebook cell editor border.
+		notebook.inactiveFocusedCellBorder: The color of the cell's top and bottom border when a cell is focused while the primary focus is outside of the editor.
+		notebook.inactiveSelectedCellBorder: The color of the cell's borders when multiple cells are selected.
+		notebook.outputContainerBackgroundColor: The Color of the notebook output container background.
+		notebook.outputContainerBorderColor: The border color of the notebook output container.
+		notebook.selectedCellBackground: The background color of a cell when the cell is selected.
+		notebook.selectedCellBorder: The color of the cell's top and bottom border when the cell is selected but not focused.
+		notebook.symbolHighlightBackground: Background color of highlighted cell
+		notebookScrollbarSlider.activeBackground: Notebook scrollbar slider background color when clicked on.
+		notebookScrollbarSlider.background: Notebook scrollbar slider background color.
+		notebookScrollbarSlider.hoverBackground: Notebook scrollbar slider background color when hovering.
+		notebookStatusErrorIcon.foreground: The error icon color of notebook cells in the cell status bar.
+		notebookStatusRunningIcon.foreground: The running icon color of notebook cells in the cell status bar.
+		notebookStatusSuccessIcon.foreground: The success icon color of notebook cells in the cell status bar.
+		notebookEditorOverviewRuler.runningCellForeground: The color of the running cell decoration in the notebook editor overview ruler.
+		charts.foreground: Contrast color for text in charts.
+		charts.lines: Color for lines in charts.
+		charts.red: Color for red elements in charts.
+		charts.blue: Color for blue elements in charts.
+		charts.yellow: Color for yellow elements in charts.
+		charts.orange: Color for orange elements in charts.
+		charts.green: Color for green elements in charts.
+		charts.purple: Color for purple elements in charts.
+		ports.iconRunningProcessForeground: The color of the icon for a port that has an associated running process.
+		commentsView.resolvedIcon: Icon color for resolved comments.
+		commentsView.unresolvedIcon: Icon color for unresolved comments.
+		actionBar.toggledBackground: Background color for toggled action items in action bar.
+		simpleFindWidget.sashBorder: Border color of the sash border.
+		scm.historyItemAdditionsForeground: History item additions foreground color.
+		scm.historyItemDeletionsForeground: History item deletions foreground color.
+		scm.historyItemStatisticsBorder: History item statistics border color.
+		scm.historyItemSelectedStatisticsBorder: History item selected statistics border color.
+		*/
+		},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "Comments: Preprocessor",
+			"scope": "comment.block.preprocessor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"storage.type",
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Language Constants",
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#AA3731"
+			}
+		},
+		{
+			"name": "Classes",
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": "entity.name.exception",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Sections",
+			"scope": "entity.name.section",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Strings: Symbols",
+			"scope": "constant.other.symbol",
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "HTML: Doctype Declaration",
+			"scope": [
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.sgml.doctype entity.name.tag",
+				"meta.tag.sgml punctuation.definition.tag.html"
+			],
+			"settings": {
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "HTML: Tags",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#91B3E0"
+			}
+		},
+		{
+			"name": "HTML: Tag Names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "HTML: Attribute Names",
+			"scope": [
+				"meta.tag entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#91B3E0"
+			}
+		},
+		{
+			"name": "HTML: Entities",
+			"scope": [
+				"constant.character.entity",
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "CSS: Selectors",
+			"scope": [
+				"meta.selector",
+				"meta.selector entity",
+				"meta.selector entity punctuation",
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "CSS: Property Names",
+			"scope": [
+				"meta.property-name",
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "CSS: Property Values",
+			"scope": [
+				"meta.property-value",
+				"meta.property-value constant.other",
+				"support.constant.property-value"
+			],
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "CSS: Important Keyword",
+			"scope": "keyword.other.important",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Markup: Deletion",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Markup: Emphasis",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup: Error",
+			"scope": "markup.error",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Markup: Insertion",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Markup: Link",
+			"scope": "meta.link",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Markup: Output",
+			"scope": [
+				"markup.output",
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Markup: Prompt",
+			"scope": "markup.prompt",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Markup: Heading",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#AA3731"
+			}
+		},
+		{
+			"name": "Markup: Strong",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Traceback",
+			"scope": "markup.traceback",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Markup: Underline",
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#7A3E9D"
+			}
+		},
+		{
+			"name": "Markup Lists",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#AB6526"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": [
+				"meta.diff.range",
+				"meta.diff.index",
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#434343"
+			}
+		}
+	]
+}

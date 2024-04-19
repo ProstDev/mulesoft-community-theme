@@ -1,0 +1,21 @@
+{
+  "name": "mulesoft-community-theme",
+  "displayName": "MuleSoft Community Theme",
+  "description": "Unofficial theme created and maintained by the community.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MuleSoft Community Theme",
+        "uiTheme": "vs",
+        "path": "./themes/MuleSoft Community Theme-color-theme.json"
+      }
+    ]
+  }
+}
