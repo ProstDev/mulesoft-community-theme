@@ -1,18 +1,37 @@
 # MuleSoft Community Theme
 
-[![Publish extension to VSC Marketplace](https://github.com/ProstDev/mulesoft-community-theme/actions/workflows/publish.yml/badge.svg)](https://github.com/ProstDev/mulesoft-community-theme/actions/workflows/publish.yml)
+Unofficial theme created and maintained by the community. Only the light theme is available for now.
 
-## Working with Markdown
+- Original creator: Alex Martinez.
+- Additional contributors: Add your name here after contributing! :D
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Overview
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Let's see some screenshots!
 
-## For more information
+### File Explorer
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![](/images/file_explorer-no_folder.png)
 
-**Enjoy!**
+## Color palette
+
+This is a list of the colors used throughout the theme:
+- MuleSoft blue = #00a0df
+- MuleSoft blue darker = #007aaa
+- MuleSoft blue lighter = #a4dcf3
+- Dark blue = #0b5cab
+- Gray 1 = #2e2e2e
+- Gray 2 = #6e6e6e
+- Gray 3 = #9e9e9e
+- Gray 4 = #cacbcc
+- Gray 5 = #eeeeee
+- Gray 6 = #f3f3f3
+- Gray 7 = #f9fafb
+- Red = #ea001e
+- Light red = #eab2b9
+- Yellow = #edbf31
+
+## Resources
+
+- [Docs] [Theme Color](https://code.visualstudio.com/api/references/theme-color)
+- [Docs] [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)

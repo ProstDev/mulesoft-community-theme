@@ -1,24 +1,4 @@
 {
-	/*
-		docs: https://code.visualstudio.com/api/references/theme-color#title-bar-colors
-			https://code.visualstudio.com/docs/getstarted/userinterface
-			https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme
-		COLORS
-			MuleSoft blue = 00a0df
-			MuleSoft blue darker = 007aaa
-			MuleSoft blue lighter = a4dcf3
-			Dark blue = 0b5cab
-			Gray 1 = 2e2e2e
-			Gray 2 = 6e6e6e
-			Gray 3 = 9e9e9e
-			Gray 4 = cacbcc
-			Gray 4.5? = eeeeee
-			Gray 5 = f3f3f3
-			Gray 6 = f9fafb
-			Red = ea001e
-			Light red = eab2b9
-			Yellow = edbf31
-	*/
 	"name": "MuleSoft Community Theme",
 	"colors": {
 		"focusBorder": "#cacbcc",
