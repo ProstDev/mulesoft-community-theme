@@ -1,9 +1,10 @@
 {
   "name": "mulesoft-community-theme",
+  "icon": "images/theme-icon.png",
   "publisher": "ProstDev",
   "displayName": "MuleSoft Community Theme",
   "description": "Unofficial theme created and maintained by the community.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.88.0"
   },
