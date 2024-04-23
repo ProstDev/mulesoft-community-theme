@@ -9,6 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout this repo
-      uses: actions/checkout@v3
-    - name: Publish to Marketplace
-      run: vsce publish
+      uses: actions/checkout@v4
+    - name: Set up NodeJS
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - run: npm ci
+    - name: Publish to VSC Marketplace
+      uses: HaaLeo/publish-vscode-extension@v1
+      with:
+        pat: ${{ secrets.MARKETPLACE_TOKEN }}
+        registryUrl: https://marketplace.visualstudio.com
