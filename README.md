@@ -1,4 +1,6 @@
-# mulesoft-community-theme README
+# MuleSoft Community Theme
+
+[![Publish extension to VSC Marketplace](https://github.com/ProstDev/mulesoft-community-theme/actions/workflows/publish.yml/badge.svg)](https://github.com/ProstDev/mulesoft-community-theme/actions/workflows/publish.yml)
 
 ## Working with Markdown
 
