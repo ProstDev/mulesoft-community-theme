@@ -4,6 +4,16 @@ All notable changes to the "mulesoft-community-theme" extension will be document
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.0.0] - 2024-04-23
 
-- Initial release
+### Added
+
+- First version of the code 
+
+### Changed
+
+N/A
+
+### Removed
+
+N/A

@@ -1,14 +1,18 @@
 {
   "name": "mulesoft-community-theme",
+  "publisher": "ProstDev",
   "displayName": "MuleSoft Community Theme",
   "description": "Unofficial theme created and maintained by the community.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.88.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "url": "https://github.com/ProstDev/mulesoft-community-theme"
+  },
   "contributes": {
     "themes": [
       {

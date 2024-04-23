@@ -1,0 +1,14 @@
+name: Publish extension to VSC Marketplace
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout this repo
+      uses: actions/checkout@v3
+    - name: Publish to Marketplace
+      run: vsce publish
