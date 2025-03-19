@@ -4,7 +4,7 @@
   "publisher": "ProstDev",
   "displayName": "MuleSoft Community Theme",
   "description": "Unofficial theme created and maintained by the community.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.88.0"
   },

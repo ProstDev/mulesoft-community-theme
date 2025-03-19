@@ -1,9 +1,10 @@
 # MuleSoft Community Theme
 
-Unofficial theme created and maintained by the community. Only the light theme is available for now.
+Unofficial theme created and maintained by the community. Dark theme now available thanks to [NaveenKumar Namachivayam](https://github.com/QAInsights)!
 
-- Original creator: Alex Martinez.
-- Additional contributors: Add your name here after contributing! :D
+Contributors:
+- [Alex Martinez](https://github.com/alexandramartinez)
+- [NaveenKumar Namachivayam](https://github.com/QAInsights)
 
 You can create a pull request to the [GitHub repository](https://github.com/ProstDev/mulesoft-community-theme) directly or [raise an issue](https://github.com/ProstDev/mulesoft-community-theme/issues) for us to fix something.
 
